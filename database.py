@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:meher@localhost/amazon'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:<passwd>@localhost/amazon'
 
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 
